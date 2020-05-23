@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="library">Library</string>
+    <string name="artists">Artists</string>
+    <string name="playlists">Playlists</string>
+    <string name="albums">Albums</string>
+    <string name="search">search</string>
+    <string name="songs">Songs</string>
+</resources>
