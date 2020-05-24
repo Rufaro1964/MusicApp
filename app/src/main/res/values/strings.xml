@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">myPlay</string>
     <string name="library">Library</string>
     <string name="artists">Artists</string>
     <string name="playlists">Playlists</string>

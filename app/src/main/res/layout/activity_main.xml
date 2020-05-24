@@ -19,37 +19,75 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:hint="@string/search"
+        android:textStyle="italic"
         android:layout_marginLeft="20dp"
         android:paddingTop="20dp"
 
         />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
+        android:id="@+id/playlist"
         android:text="@string/playlists"
+        android:textStyle="italic"
         android:layout_marginLeft="20dp"
         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
+        android:id="@+id/artists"
+        android:textStyle="italic"
         android:text="@string/artists"
         android:layout_marginLeft="20dp"
         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/albums"
+        android:id="@+id/albums"
+        android:textStyle="italic"
         android:layout_marginLeft="20dp"
         android:paddingTop="20dp"
         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
+        android:textStyle="italic"
+        android:id="@+id/songs"
         android:text="@string/songs"
         android:layout_marginLeft="20dp"
         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/darker_gray"
+        />
+
 
 </LinearLayout>
